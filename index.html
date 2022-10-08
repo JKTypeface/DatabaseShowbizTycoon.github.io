@@ -28,19 +28,12 @@ $(document).ready(function()
 </div>
 <input type="submit" id="Button1" onclick="document.getElementById('FileUpload1').submit();return false;" name="" value="Submit" style="position:absolute;left:346px;top:219px;width:87px;height:34px;z-index:2;" autofocus>
 <div id="Html1" style="position:absolute;left:46px;top:253px;width:657px;height:187px;z-index:3">
-<!DOCTYPE html>
-<html>
-<body>
+<label for="photo">Choose a photo!</label>
 
-<p>Click on the "Choose File" button to upload a file:</p>
-
-<form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
-</form>
-
-</body>
-</html>
-</div>
+<input 
+  type="file"
+  id="photo" 
+  name="photo"
+  accept="image/*"></div>
 </body>
 </html>
